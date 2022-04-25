@@ -1,0 +1,1 @@
+$(document.body).delegate(".cmt-img img","click",function(){var t=$(this);t.attr("raw-style")?(t.attr("style",t.attr("raw-style")),t.removeAttr("raw-style"),t.parent().removeClass("cmt-img-large")):(t.attr("raw-style",t.attr("style")),t.removeAttr("style"),t.parent().addClass("cmt-img-large"))});
